@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Riya Deshmankar</title>
+    <style>
+        /* Reset and basic styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #491b51;
+            color: #333;
+        }
+
+        /* Container styling */
+        .container {
+            max-width: 800px;
+            background-color: #FAF7F5;
+            border: 1px solid #D4CFCB;
+            padding: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: center;
+        }
+
+        /* Header nav links */
+        .header {
+            grid-column: span 2;
+            display: flex;
+            justify-content: space-around;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .header a {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2rem;
+            color: #333;
+            padding: 0 15px;
+        }
+
+        /* Main content */
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .content h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        /* Social links */
+        .social {
+            display: flex;
+            gap: 10px;
+            font-size: 1.5em;
+        }
+
+        .social a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Image styling */
+        .profile-img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Header Links -->
+        <nav class="header">
+            My Personal Webpage<br><br>
+        </nav>
+
+        <!-- Content Section -->
+        <div class="content">
+            <h1>RIYA DESHMANKAR</h1>
+            <p> Hi! I am a student persuing Engineering in Computer Science and Engineering branch.
+            <p>I am a Frontend Web developer and currently learning Data Structures.</p>
+            <div class="social">
+                <a href="https://www.instagram.com/riya_deshmankar14/?next=%2F"><img
+                        src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" width="20px" /></a>
+                <a href="https://www.linkedin.com/in/riya-deshmankar-6a0b38286/"><img
+                        src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" width="20px" /></a>
+            </div>
+        </div>
+
+        <!-- Profile Image -->
+        <div class="profile-img-container">
+            <img src="./Profile_Image.jpg" alt="Riya Deshmankar" class="profile-img">
+        </div>
+    </div>
+
+</body>
+
+</html>
